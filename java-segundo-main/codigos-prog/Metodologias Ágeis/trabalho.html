@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa sobre Metodologias Ágeis</title>
+    <link href="trabalho.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Aprendizagem Baseada em Equipe: Metodologias Ágeis</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#xp" onclick="showSection('xp')">XP</a></li>
+            <li><a href="#fdd" onclick="showSection('fdd')">FDD</a></li>
+            <li><a href="#kanban" onclick="showSection('kanban')">Kanban</a></li>
+            <li><a href="#crystal" onclick="showSection('crystal')">Crystal</a></li>
+            <li><a href="#msf" onclick="showSection('msf')">MSF</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="xp" class="active">
+            <h2>eXtreme Programming (XP)</h2>
+            <div class="section-content">
+                <h3>Contextualização Geral</h3>
+                <p>Extreme Programming (XP) é uma metodologia ágil de desenvolvimento de software que enfatiza flexibilidade, satisfação do cliente e código de alta qualidade.</p>
+            </div>
+            <div class="section-content">
+                <h3>Componentes Humanos Envolvidos</h3>
+                <p>Cliente, Programadores, Testadores e Coach/Tracker. O foco é no time colaborativo como um todo.</p>
+            </div>
+            <div class="section-content">
+                <h3>Fases do Processo</h3>
+                <p>XP segue práticas como: Planning Game, Small Releases, Simple Design, Testing, Refactoring, Pair Programming, Collective Ownership, Continuous Integration e On-site Customer.</p>
+            </div>
+            <div class="section-content">
+                <h3>Vantagens e Desvantagens</h3>
+                <p>Vantagens: qualidade de software, adaptabilidade, foco no cliente e colaboração da equipe.<br>
+                Desvantagens: exige disciplina, pode ser intenso, não escala bem para times grandes.</p>
+            </div>
+        </section>
+
+        <section id="fdd">
+            <h2>Feature Driven Development (FDD)</h2>
+            <div class="section-content">
+                <h3>Contextualização Geral</h3>
+                <p>FDD é uma framework ágil iterativa e incremental focada em features, indicada para projetos maiores e complexos.</p>
+            </div>
+            <div class="section-content">
+                <h3>Componentes Humanos Envolvidos</h3>
+                <p>Papéis: Chief Programmer, Domain Experts, Class Owners, Feature Teams, Project Manager e Build Engineer.</p>
+            </div>
+            <div class="section-content">
+                <h3>Fases do Processo</h3>
+                <p>As cinco fases: Develop Overall Model, Build Feature List, Plan by Feature, Design by Feature e Build by Feature.</p>
+            </div>
+            <div class="section-content">
+                <h3>Vantagens e Desvantagens</h3>
+                <p>Vantagens: bom para projetos grandes, foco em entregas, escalável.<br>
+                Desvantagens: mais estruturada, menos flexível e requer modelagem inicial.</p>
+            </div>
+        </section>
+
+        <section id="kanban">
+            <h2>Kanban</h2>
+            <div class="section-content">
+                <h3>Contextualização Geral</h3>
+                <p>Kanban foca na visualização do fluxo de trabalho, limitação de tarefas em andamento (WIP) e melhoria contínua.</p>
+            </div>
+            <div class="section-content">
+                <h3>Componentes Humanos Envolvidos</h3>
+                <p>Não há papéis fixos. O time gerencia o quadro coletivamente.</p>
+            </div>
+            <div class="section-content">
+                <h3>Fases do Processo</h3>
+                <p>É contínuo, sem fases fixas. Utiliza colunas como: A Fazer, Em Progresso e Concluído.</p>
+            </div>
+            <div class="section-content">
+                <h3>Vantagens e Desvantagens</h3>
+                <p>Vantagens: flexibilidade, transparência e melhoria no fluxo.<br>
+                Desvantagens: pode faltar estrutura para iniciantes e risco de sobrecarga.</p>
+            </div>
+        </section>
+
+        <section id="crystal">
+            <h2>Crystal</h2>
+            <div class="section-content">
+                <h3>Contextualização Geral</h3>
+                <p>Crystal é uma família de metodologias leves que priorizam pessoas e interações sobre processos.</p>
+            </div>
+            <div class="section-content">
+                <h3>Componentes Humanos Envolvidos</h3>
+                <p>Times pequenos; papéis variam como: Sponsor, Senior Designer, Programmer e User.</p>
+            </div>
+            <div class="section-content">
+                <h3>Fases do Processo</h3>
+                <p>Ciclos iterativos com Reflection Workshops e foco em comunicação e melhoria contínua.</p>
+            </div>
+            <div class="section-content">
+                <h3>Vantagens e Desvantagens</h3>
+                <p>Vantagens: flexível, prioriza pessoas e adaptável.<br>
+                Desvantagens: pouco prescritiva, pode ser vaga para iniciantes.</p>
+            </div>
+        </section>
+
+        <section id="msf">
+            <h2>Microsoft Solutions Framework (MSF)</h2>
+            <div class="section-content">
+                <h3>Contextualização Geral</h3>
+                <p>MSF é um framework da Microsoft para design, desenvolvimento e deployment de soluções de TI, combinando ágil e tradicional.</p>
+            </div>
+            <div class="section-content">
+                <h3>Componentes Humanos Envolvidos</h3>
+                <p>Papéis: Program Manager, Architect, Developer, Tester, Release Manager, User Experience e Product Manager.</p>
+            </div>
+            <div class="section-content">
+                <h3>Fases do Processo</h3>
+                <p>As fases: Envisioning, Planning, Developing, Stabilizing e Deploying.</p>
+            </div>
+            <div class="section-content">
+                <h3>Vantagens e Desvantagens</h3>
+                <p>Vantagens: flexível, integra bem com ferramentas Microsoft, bom para projetos complexos.<br>
+                Desvantagens: mais pesado que ágeis puros, dependente do ecossistema Microsoft.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Pesquisa TBL sobre Metodologias Ágeis</p>
+    </footer>
+    <script src="trabalho.js"></script>
+</body>
+</html>
